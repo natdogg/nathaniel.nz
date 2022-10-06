@@ -154,8 +154,9 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     tileColor = "#da532c"
 
   # Search config
+  # Disabled because search wasnt working with the below config. Will need to investigate further in future if wanting to enable
   [params.search]
-    enable = true
+    enable = false
     # type of search engine ["lunr", "algolia"]
     type = "algolia"
     # max index length of the chunked content

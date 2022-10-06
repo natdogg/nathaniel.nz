@@ -1,2 +1,2 @@
-# natdogg.github.io
+# nathaniel.nz
 Personal Blog
