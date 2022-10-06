@@ -50,6 +50,22 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     name = "Categories"
     url = "/categories/"
     title = ""
+  [[menu.main]]
+    weight = 4
+    identifier = "about"
+    pre = ""
+    post = ""
+    name = "About"
+    url = "/about/"
+    title = ""
+  [[menu.main]]
+    weight = 5
+    identifier = "github"
+    pre = "<i class='fab fa-github fa-fw'></i>"
+    post = ""
+    name = ""
+    url = "https://github.com/natdogg"
+    title = "GitHub"
 
 [params]
   defaultTheme = "auto"
@@ -61,9 +77,11 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # website title for Open Graph and Twitter Cards
   title = "Nathaniel Sutton"
   # website description for RSS, SEO, Open Graph and Twitter Cards
-  description = "This is my Blog"
+  description = "Nathaniel Sutton; Cloud and DevOps Engineer. A blog mainly about the Cloud and DevOps"
   # website images for Open Graph and Twitter Cards
   images = ["/logo.png"]
+  # site keywords
+  keywords = ["blog", "cloud", "devops", "architecture", "Nathaniel Sutton"]
 
   # Header config
   [params.header]
@@ -123,7 +141,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # App icon config
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = "LoveIt"
+    title = "Nathaniel SUtton"
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
@@ -169,7 +187,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # URL of avatar shown in home page
       avatarURL = "/images/avatar.png"
       # title shown in home page (HTML format is supported)
-      title = "Nathaniel SUtton"
+      title = "Nathaniel Sutton"
       # subtitle shown in home page (HTML format is supported)
       subtitle = "Senior Cloud and DevOps Engineer"
       # whether to use typeit animation for subtitle
@@ -352,7 +370,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       Mix = false
     # Comment config
     [params.page.comment]
-      enable = true
+      enable = false
       # Disqus comment config (https://disqus.com/)
       [params.page.comment.disqus]
         enable = false
@@ -367,7 +385,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         clientSecret = ""
       # Valine comment config (https://github.com/xCss/Valine)
       [params.page.comment.valine]
-        enable = true
+        enable = false
         appId = "QGzwQXOqs5JOhN4RGPOkR2mR-MdYXbMMI"
         appKey = "WBmoGyJtbqUswvfLh6L8iEBr"
         placeholder = ""
