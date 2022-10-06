@@ -1,0 +1,3 @@
+[submodule "themes/Hugo_LoveIt_Theme"]
+	path = themes/Hugo_LoveIt_Theme
+	url = https://github.com/natdogg/Hugo_LoveIt_Theme.git
