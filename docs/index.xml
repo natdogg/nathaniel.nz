@@ -1,16 +1,16 @@
 <rss xmlns:atom="http://www.w3.org/2005/Atom" version="2.0">
     <channel>
         <title>Nathaniels Blog</title>
-        <link>http://natdogg.github.io/</link>
-        <description>Hugo theme - LoveIt</description>
-        <generator>Hugo -- gohugo.io</generator><language>en</language><copyright>This work is licensed under a Creative Commons Attribution-NonCommercial 4.0 International License.</copyright><lastBuildDate>Thu, 01 Sep 2022 00:00:00 &#43;0000</lastBuildDate>
-            <atom:link href="http://natdogg.github.io/index.xml" rel="self" type="application/rss+xml" />
+        <link>https://nathaniel.nz/</link>
+        <description>This is my Blog</description>
+        <generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 01 Sep 2022 00:00:00 &#43;0000</lastBuildDate>
+            <atom:link href="https://nathaniel.nz/index.xml" rel="self" type="application/rss+xml" />
         <item>
     <title>Basic Markdown Syntax</title>
-    <link>http://natdogg.github.io/2022-10-06-basic-markdown-syntax/</link>
+    <link>https://nathaniel.nz/2022-10-06-basic-markdown-syntax/</link>
     <pubDate>Thu, 01 Sep 2022 00:00:00 &#43;0000</pubDate>
     <author>Dillon</author>
-    <guid>http://natdogg.github.io/2022-10-06-basic-markdown-syntax/</guid>
+    <guid>https://nathaniel.nz/2022-10-06-basic-markdown-syntax/</guid>
     <description><![CDATA[<p>This article offers a sample of basic Markdown syntax that can be used in Hugo content files.</p>]]></description>
 </item>
 </channel>

@@ -61,4 +61,4 @@ Disallow: /
 User-agent: ZoominfoBot
 Disallow: /
 
-Sitemap: http://natdogg.github.io/sitemap.xml
+Sitemap: https://nathaniel.nz/sitemap.xml
