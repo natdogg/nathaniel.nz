@@ -1,4 +1,4 @@
-!/usr/bin/env bash
+#!/usr/bin/env bash
 
 readonly DELAY_STEP_SECONDS=15
 readonly INTERVAL_SECONDS=5
