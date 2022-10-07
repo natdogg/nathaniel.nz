@@ -28,11 +28,11 @@ function poll_build_status() {
   local waited_seconds=0
   while [[ "${waited_seconds}" -lt "${TIMEOUT_SECONDS}" ]]; do
     if curl \
-      # --silent \
+      --silent \
       --user "${GITHUB_USER}:${GH_TOKEN}" \
       --header "Accept: application/vnd.github.v3+json" \
       "https://api.github.com/repos/${GITHUB_USER}/${GITHUB_REPO}/pages/builds/latest" \
-      | grep -q '"status": "built"'; then
+      | grep '"status": "built"'; then
       echo "Success."
       return 0
     fi
