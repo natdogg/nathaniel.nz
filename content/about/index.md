@@ -9,6 +9,6 @@ aliases: ["about-me", "contact"]
 </div>
 
 <div class="about-main">
-<h4>Hey, welcome to my site which is a wok in progress :P</h4>
+<h4>Hey, welcome to my site which is a work in progress :P</h4>
 
 </div>
